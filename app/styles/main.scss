@@ -1,0 +1,53 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic);
+
+
+/* Space out content a bit */
+html, body{
+  height: 100%;
+}
+body {
+  font-family: 'Lato', 'Arial';
+  font-weight: 200;
+  letter-spacing: 0.090em;
+}
+
+h1,h2{
+  text-align: center;
+}
+h1{
+  font-size: 60px;
+  font-weight: 200;
+  color: #F0403F;
+}
+.container-fluid{
+  height: 100%;
+}
+
+.row{
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+}
+
+.col-xs-12{
+  display: table-cell;
+  vertical-align: middle;
+  float:none;
+  height: 100%;
+}
+a, a:visited{
+  color: #333;
+  text-decoration: none;
+}
+
+i.fa{
+  padding-right: 10px;
+  &:hover{
+    color: #f0403F;
+    cursor: pointer;
+  }
+}
